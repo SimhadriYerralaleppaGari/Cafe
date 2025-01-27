@@ -1,7 +1,7 @@
 import qrcode
 
 # Replace with the hosted URL for your services page
-url = "http://localhost:8000/src/index.html"  # Update with the actual hosted link when deployed
+url = "https://simhadriyerralaleppagari.github.io/Cafe/"  # Update with the actual hosted link when deployed
 
 # Generate QR code
 qr = qrcode.make(url)
