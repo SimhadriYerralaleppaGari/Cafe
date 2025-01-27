@@ -1,58 +1,59 @@
+/* Basic styling for the page */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #f9f9f9;
-    color: #333;
-  }
-  
-  header {
-    text-align: center;
-    padding: 20px;
-    background: #007BFF;
-    color: white;
-  }
-  
-  header .logo {
-    width: 100px;
-    margin-bottom: 10px;
-  }
-  
-  h1 {
-    margin: 0;
-  }
-  
-  main {
-    padding: 20px;
-  }
-  
-  .service {
-    background: white;
-    padding: 15px;
-    margin: 15px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .service h2 {
-    color: #007BFF;
-  }
-  
-  .service p {
-    margin: 5px 0;
-  }
-  
-  footer {
-    text-align: center;
-    background: #007BFF;
-    color: white;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-  }
-  
-  footer a {
-    color: #FFD700;
-    text-decoration: none;
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background: #007BFF;
+  color: white;
+}
+
+header .logo {
+  width: 100px;  /* Set width of the logo */
+  height: 100px;  /* Set height of the logo */
+  margin-bottom: 10px;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.service {
+  background: white;
+  padding: 15px;
+  margin: 15px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service h2 {
+  color: #007BFF;
+}
+
+.service p {
+  margin: 5px 0;
+}
+
+footer {
+  text-align: center;
+  background: #007BFF;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+footer a {
+  color: #FFD700;
+  text-decoration: none;
+}
